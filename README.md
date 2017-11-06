@@ -1,5 +1,5 @@
 # Automatic-URL-Classifier
-This is for my final assignment for Enterprise Data Scientist.
+This is URL classifier using NLTK module to IAB taxonomy 
 
 
 # Require software
@@ -26,5 +26,4 @@ This is for my final assignment for Enterprise Data Scientist.
 - sklearn.naive_bayes.BernoulliNB
 - sklearn.linear_model.LogisticRegression
 - sklearn.linear_model.SGDClassifier
-- sklearn.svm.LinearSVC
 - nltk.NaiveBayesClassifier
