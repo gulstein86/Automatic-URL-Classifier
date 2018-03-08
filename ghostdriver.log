@@ -1,0 +1,39 @@
+[INFO  - 2017-10-24T03:00:12.580Z] GhostDriver - Main - running on port 58629
+[INFO  - 2017-10-24T03:00:15.728Z] Session [75e53f70-b867-11e7-a592-c780f42e8d3a] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-10-24T03:00:15.728Z] Session [75e53f70-b867-11e7-a592-c780f42e8d3a] - page.customHeaders:  - {}
+[INFO  - 2017-10-24T03:00:15.728Z] Session [75e53f70-b867-11e7-a592-c780f42e8d3a] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-10-24T03:00:15.728Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 75e53f70-b867-11e7-a592-c780f42e8d3a
+[ERROR - 2017-10-24T03:00:19.628Z] Session [75e53f70-b867-11e7-a592-c780f42e8d3a] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'window.performance.getEntriesByType("resource")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-10-24T03:00:19.629Z] Session [75e53f70-b867-11e7-a592-c780f42e8d3a] - page.onError - stack:
+  (anonymous function) (https://my-live-03.slatic.net/lzdtracker/resource_performance.js?v=a7fae33:30)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-10-24T03:00:20.562Z] Session [75e53f70-b867-11e7-a592-c780f42e8d3a] - page.onError - msg: Variations should be chosen before hit is sent to GA
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-10-24T03:00:20.562Z] Session [75e53f70-b867-11e7-a592-c780f42e8d3a] - page.onError - stack:
+  A (https://www.google-analytics.com/cx/api.js?experiment=7HkeSll9SgyFSu661IMqVA&_=1508814019597:7)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-10-24T03:00:21.613Z] Session [75e53f70-b867-11e7-a592-c780f42e8d3a] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'window.spons.apiEndpoint.endsWith("/")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-10-24T03:00:21.613Z] Session [75e53f70-b867-11e7-a592-c780f42e8d3a] - page.onError - stack:
+  getUrl (https://recommender.lazada.com.my/sp_client.js:78)
+  get_spons (https://recommender.lazada.com.my/sp_client.js:86)
+  (anonymous function) (https://recommender.lazada.com.my/sp_client.js:100)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-10-24T03:00:21.623Z] Session [75e53f70-b867-11e7-a592-c780f42e8d3a] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'window.Reco[INFO  - 2017-10-24T03:04:56.689Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-10-24T03:04:56.690Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session '6c6f3860-b867-11e7-a18d-dd870e4ec800', because windowless
+der.lazada.com.my/rico_client.js:64)
+  (anonymous function) (https://recommender.lazada.com.my/rico_client.js:78)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-10-24T03:00:24.273Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1508814024241
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2017-10-24T03:05:12.579Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-10-24T03:05:12.580Z] SessionManagerReqHand - _cleanupWindowlessSessions - Deleted Session '75e53f70-b867-11e7-a592-c780f42e8d3a', because windowless
